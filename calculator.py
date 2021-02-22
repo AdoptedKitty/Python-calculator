@@ -8,7 +8,9 @@ while user == False:
     3- Multiplication calculator
     4- Division calculator
     5- Divisibility calculator
-    6- Odd or even calculator"""))
+    6- Odd or even calculator
+    7- Exponent calculator
+    """))
     if user == 1:
         a = int(input("Select your first addend"))
         b = int(input("Select your second addend"))
@@ -40,5 +42,9 @@ while user == False:
             print(l, "is even")
         else:
             print(l, "is odd")
+    if user == 7:
+        n = int(input("Select an integer"))
+        o = int(input("Enter the exponent"))
+        print(n ** o)
 
     user = False
