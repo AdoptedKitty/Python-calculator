@@ -34,7 +34,7 @@ while user == False:
         if c == 0:
             print(i, "is divisable by", j)
         else:
-            print(1, "is not divisable by", j)
+            print(i, "is not divisable by", j)
     if user == 6:
         l = int(input("Select an integer"))
         m = l % 2
@@ -46,5 +46,7 @@ while user == False:
         n = int(input("Select an integer"))
         o = int(input("Enter the exponent"))
         print(n ** o)
-
+    else:
+        print("That item isn't on the menu")
+        
     user = False
