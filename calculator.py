@@ -46,7 +46,6 @@ while user == False:
         n = int(input("Select an integer"))
         o = int(input("Enter the exponent"))
         print(n ** o)
-    else:
-        print("That item isn't on the menu")
+
         
     user = False
