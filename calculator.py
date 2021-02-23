@@ -10,6 +10,10 @@ while user == False:
     5- Divisibility calculator
     6- Odd or even calculator
     7- Exponent calculator
+    8- Area of circle calculator
+    9- Area of rectangle calculator
+    10- Volume of cylinder calculator
+    11- Volume of rectangular prism calculator
     """))
     if user == 1:
         a = int(input("Select your first addend"))
@@ -46,6 +50,21 @@ while user == False:
         n = int(input("Select an integer"))
         o = int(input("Enter the exponent"))
         print(n ** o)
-
+    if user == 8:
+        p = int(input("Enter the radius of the circle"))
+        print(3.14 * (p ** 2))
+    if user == 9:
+        q = int(input("Enter the length of the rectangle"))
+        r = int(input("Enter the width of the rectangle"))
+        print(q * r)
+    if user == 10:
+        s = int(input("Enter the radius of the circle"))
+        t = int(input("Enter the height of the cylinder"))
+        print((3.14 * (s ** 2)) * t)
+    if user == 11:
+        ab = int(input("Enter the width of the rectangular prism"))
+        ac = int(input("Enter the length of the rectangular prism"))
+        ad = int(input("Enter the height of the rectangular prism"))
+        print((ab * ac) * ad)
         
     user = False
